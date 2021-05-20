@@ -42,7 +42,7 @@ int mall_sp(t_mn *mn)
 			i++;
 		}
 	}
-	ft_sprite_position(mn);
+	// ft_sprite_position(mn);
 	return (0);
 }
 

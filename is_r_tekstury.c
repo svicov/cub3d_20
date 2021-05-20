@@ -7,7 +7,7 @@ int ft_main_loop(t_info *info, t_mn *mn)
 
 	ft_floor_calculate(info, &info->fl, mn); // ok
 	ft_wall_calculate(info, &info->wl, mn);  // ok
-	ft_sprites(info, &info->sp, mn, NULL); // ok
+	// ft_sprites(info, &info->sp, mn, NULL); // ok
 
 	ft_draw(info, mn); // ok
 	ft_key_update(info, mn); // ok
