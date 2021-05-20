@@ -177,6 +177,8 @@ typedef struct s_info
 
 
 int 	init_ab1(t_info *info);
+int		ft_malloc(t_info *info, t_mn *mn);
+void	ft_load_texture(t_info *info, t_mn *mn);
 int		ft_main_loop(t_info *info, t_mn *mn);
 void	ft_floor_calculate(t_info *info, t_floor *fl, t_mn *mn);
 void	ft_wall_calculate(t_info *info, t_wall *wl, t_mn *mn);

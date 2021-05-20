@@ -75,7 +75,9 @@ int main(int argc, char **argv)
 	rtue_mat2(&mn);
 	counting1(&mn);
 	ft_player_position(&info, &mn, 0, 0);
+	ft_malloc(&info, &mn);
 	info.mlx = mlx_init();
+	ft_load_texture(&info, &mn);
 	// if (info.save == 0)
 	info.win = mlx_new_window(info.mlx, mn.conf.width, mn.conf.heigth, "Window");
 	// else

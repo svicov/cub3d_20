@@ -14,10 +14,10 @@ void	ft_floor_draw(t_info *info, t_floor *fl, t_mn *mn, int y)
 		fl->X += fl->stepX;
 		fl->Y += fl->stepY;
 		// fl->color = info->texture[4][TW * fl->ty + fl->tx];
-		fl->color = 15036360;
+		fl->color = 0xffffff;
 		info->buf[y][x] = fl->color;
 		// fl->color = info->texture[5][TW * fl->ty + fl->tx];
-		fl->color = 15036360;
+		fl->color = 0x000000;
 		info->buf[mn->conf.heigth - y - 1][x] = fl->color;
 		x++;
 	}

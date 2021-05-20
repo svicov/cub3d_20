@@ -4,7 +4,7 @@ SRCS =	get_next_line.c get_next_line_utils.c is_r_tekstury.c\
 		pars1part.c pars_1part_2.c pars_1part_3.c init.c\
 		pars2.c true_map.c ft_maxlen.c ft_error.c valid_map.c counting_sp.c \
 		init_ab.c floor.c wall.c sprites.c sprites_utils.c update.c player.c \
-		controls.c paint.c
+		controls.c paint.c texture.c
 		
 
 OBJS = $(SRCS:.c=.o)
